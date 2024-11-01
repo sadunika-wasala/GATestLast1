@@ -597,35 +597,6 @@
             <script data-optimized="1" src="https://seer365.com/wp-content/litespeed/js/d53967f0a7ee92075fa1053272ab39d2.js?ver=b39d2" id="pro-elements-handlers-js" defer data-deferred="1"></script>
         </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        function addClassInIframe() {
-            const iframe = document.getElementById("iFrameContent");
-            if (iframe && iframe.contentDocument) {
-                const element = iframe.contentDocument.getElementById("surveyContainer");
-                if (element) {
-                    element.classList.add("custom-iframe-wrapper11111");
-                    console.log("Element found and class added inside iframe.");
-                } else {
-                    // Retry if element isn’t found within the iframe
-                    setTimeout(addClassInIframe, 100);
-                    console.log("Element not found inside iframe, retrying...");
-                }
-            } else {
-                // Retry if iframe itself is not ready yet
-                setTimeout(addClassInIframe, 100);
-                console.log("Iframe not ready, retrying...");
-            }
-        }
-
-        // Start the check
-        addClassInIframe();
-    });
-</script>
-
-
-
-
     </body>
 
 </html>
